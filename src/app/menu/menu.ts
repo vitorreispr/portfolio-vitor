@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { MenuService } from '../services/menu';
 
 @Component({
   imports: [],
@@ -6,4 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './menu.css',
   templateUrl: './menu.html',
 })
-export class Menu {}
+export class MenuComponent {
+
+  constructor() {}
+  
+  private menuService = inject(MenuService);
+}

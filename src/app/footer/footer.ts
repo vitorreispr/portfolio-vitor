@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { ProfileService } from '../services/profile';
 
 @Component({
   imports: [],
@@ -6,4 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './footer.css',
   templateUrl: './footer.html',
 })
-export class Footer {}
+export class FooterComponent {
+
+  constructor() {}
+
+  private profileService = inject(ProfileService);
+}
