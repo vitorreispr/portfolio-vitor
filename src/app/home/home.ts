@@ -13,4 +13,6 @@ export class HomeComponent {
 
   private profileService = inject(ProfileService);
   
-}
+
+  }
+
