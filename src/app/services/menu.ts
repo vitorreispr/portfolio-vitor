@@ -1,5 +1,6 @@
 import { Service } from '@angular/core';
 import { Menu } from '../models/menu';
+
 @Service()
 export class MenuService {
 
