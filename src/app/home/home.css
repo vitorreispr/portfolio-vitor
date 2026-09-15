@@ -78,7 +78,6 @@
 .about .box .img {
     flex: 1;
     margin: 0 auto 20px;
-
 }
 
 .about .box .img img {
@@ -106,6 +105,52 @@
     text-decoration: none;
 }
 
+/* box skills */
+
+.skills {
+    background: var(--color-black-1);
+}
+
+.skills .box h2,
+.skills .box h3,
+.skills .box h4
+{
+color: #fff;
+}
+
+.skills .box h3 {
+    margin: 5px 0 20px;
+    font-size: var(--font-size-4);
+}
+
+.skills .box .items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.skills .box .items .skill {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skills .box .items .skill:hover {
+    background: #ffffff1f;
+}
+
+.skills .box .items .skill img {
+    width: 90px;
+}
+
+.skills .box .items .skill h4 {
+    margin-top: 15px;
+}
+
 @media (min-width: 760px) {
     .about .box {
         flex-direction: row;
@@ -117,5 +162,13 @@
 
     .about .box .text {
         padding-left: 40px;
+    }
+
+    .skills .box .items .skill {
+        width: 25%;
+    }
+
+    .skills .box .items .skill img {
+        width: 120px;
     }
 }
