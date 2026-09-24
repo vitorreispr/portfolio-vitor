@@ -1,4 +1,5 @@
 /* box banner */
+
 .banner {
     display: flex;
     justify-content: center;
@@ -12,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 45px 5px;   
+    padding: 45px 5px;
 }
 
 .banner .box .paragraph {
@@ -53,122 +54,14 @@
     font-weight: 700;
     background: var(--color-blue-1);
     color: #fff;
+    text-decoration: none;
+    text-wrap: nowrap;
 }
 
 .banner .box .buttons a:hover {
     background: var(--color-blue-2);
 }
 
-.banner .box .buttons a {
-    text-decoration: none;
-}
-
 .banner .box .buttons a svg {
     margin-right: 5px;
-}
-
-/* box about */
-
-.about .box {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-}
-
-.about .box .img {
-    flex: 1;
-    margin: 0 auto 20px;
-}
-
-.about .box .img img {
-    width: 240px;
-    border-radius: 50%;
-}
-
-.about .box .text {
-    flex: 2
-}
-
-.about .box .text h3 {
-    color: var(--color-blue-2);
-    margin-top: 15px;
-}
-
-.about .box .text p {
-    margin: 15px 0;
-    text-align: justify;
-}
-
-.about .box .text a {
-    color: var(--color-gray-1);
-    font-weight: 600;
-    text-decoration: none;
-}
-
-/* box skills */
-
-.skills {
-    background: var(--color-black-1);
-}
-
-.skills .box h2,
-.skills .box h3,
-.skills .box h4
-{
-color: #fff;
-}
-
-.skills .box h3 {
-    margin: 5px 0 20px;
-    font-size: var(--font-size-4);
-}
-
-.skills .box .items {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    max-width: 900px;
-}
-
-.skills .box .items .skill {
-    width: 50%;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.skills .box .items .skill:hover {
-    background: #ffffff1f;
-}
-
-.skills .box .items .skill img {
-    width: 90px;
-}
-
-.skills .box .items .skill h4 {
-    margin-top: 15px;
-}
-
-@media (min-width: 760px) {
-    .about .box {
-        flex-direction: row;
-    }
-
-    .about .box .img img {
-        width: 100%;
-    }
-
-    .about .box .text {
-        padding-left: 40px;
-    }
-
-    .skills .box .items .skill {
-        width: 25%;
-    }
-
-    .skills .box .items .skill img {
-        width: 120px;
-    }
 }
