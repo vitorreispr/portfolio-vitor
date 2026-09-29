@@ -8,7 +8,7 @@
 
 :root {
     font-size: 125%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM sans', sans-serif;
 
     --font-size-1: 2.25rem;
     --font-size-2: 1.75rem;
@@ -17,11 +17,10 @@
     --font-size-5: 0.75rem;
 
     --color-blue-1: #1c6cf9;
-    --color-blue-2: #33458d;
+    --color-blue-2: #33489d;
     --color-blue-3: #141e41;
 
-    --color-gray-1: #646161;
+    --color-pink-1: #f42771;
 
     --color-black-1: #181818;
-
 }
