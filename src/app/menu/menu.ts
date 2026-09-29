@@ -16,6 +16,8 @@ export class MenuComponent {
   
   private menuService = inject(MenuService);
 
+    menuStastus = 'closed';
+
     menuItems?: Array<Menu>;
 
     ngOnInit() {
