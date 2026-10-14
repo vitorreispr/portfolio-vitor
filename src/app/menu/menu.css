@@ -43,7 +43,7 @@ nav ul li a:hover {
     color: var(--color-blue-2);
 }
 
-nav i {
+nav img {
     font-size: 45px;
     margin: 0 15px;
     cursor: pointer;

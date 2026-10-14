@@ -12,7 +12,7 @@ export class ProfileService {
             email: 'contato@vitorreispr.com.br',
             name: 'Vitor Reis',
             whatsApp: 'https://api.whatsapp.com/send?phone=5586999591356&text=Ol%C3%A1,%20eu%20estou%20no%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es',
-            linkedIn: '',
+            linkedIn: 'https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BpwX6UQ0ARPGtR6CcsrBQ9Q%3D%3D',
         }
 
         return profile;

@@ -1,5 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { ProfileService } from '../services/profile';
+import { Profile } from '../models/profile';
 
 @Component({
   imports: [],
@@ -12,7 +13,11 @@ export class HomeComponent {
   constructor() {}
 
   private profileService = inject(ProfileService);
-  
 
+  profile?: Profile;
+  
+  ngOnInit() {
+    this.profile = this.profileService.getProfile();
+  }
   }
 
